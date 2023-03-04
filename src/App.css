@@ -1,0 +1,35 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.navbar-link:hover {
+  color: #ffca2c !important;
+}
+
+.active-link {
+  color: #ffca2c !important;
+  font-weight: bold;
+}
+
+.nav-brand {
+  color: #ffca2c;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+.nav-brand:hover {
+  color: #f8f8f8;
+}
+
+.note-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-btns a {
+  text-decoration: none !important;
+  color: black;
+}
+
+.text-gray {
+  color: gray;
+}
