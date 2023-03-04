@@ -32,7 +32,7 @@ function Signup() {
     return (
         <div>
             <Form className="mt-4" onSubmit={handleClick}>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Group className="mb-3" controlId="formBasicName">
                     <Form.Label>Name</Form.Label>
                     <Form.Control type="name" name='name' value={credentials.name} onChange={handleChange} placeholder="Enter name" />
                 </Form.Group>
