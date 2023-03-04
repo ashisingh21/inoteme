@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import { useNavigate } from "react-router-dom";
 
 function Signup() {
-    const HOST = 'http://localhost:5000';
+    const HOST = process.env.REACT_APP_HOST
 
     const navigate = useNavigate()
 
