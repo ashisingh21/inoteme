@@ -27,8 +27,8 @@ function MainNavbar() {
                         {!localStorage.getItem('token') ? <Nav>
 
 
-                            <Button className='mx-3 nav-btns' variant='warning'><Link to="/login">Login</Link></Button>
-                            <Button variant='warning nav-btns'><Link to="/signup">
+                            <Button className='btn mx-3 nav-btns' variant='warning'><Link to="/login">Login</Link></Button>
+                            <Button variant='btn warning nav-btns'><Link to="/signup">
                                 Signup
                             </Link></Button>
 
